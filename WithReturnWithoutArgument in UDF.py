@@ -21,22 +21,21 @@ while x==True:
     if ch==1:
         a=int(input())
         print(area())
-        s=True
+        x=True
     elif ch==2:
         d=int(input())
         print(volumeofcube())
-        s=True
+        x=True
     elif ch==3:
         y=int(input())
         z=int(input())
         h=int(input())
         print(TSA())
-        s=True
+        x=True
     elif ch==4:
         r=int(input())
         height=int(input())
         print(volumeofcone())
-        s=True
+        x=True
     else:
-        s=False
-        break
+        x=False
