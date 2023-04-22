@@ -38,4 +38,4 @@ while x==True:
         print(volumeofcone(r,height))
         x=True
     else:
-        s=False
+        x=False
