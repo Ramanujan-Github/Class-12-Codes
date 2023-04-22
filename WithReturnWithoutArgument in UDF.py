@@ -1,0 +1,42 @@
+#with_return_without_arg
+
+import math
+from math import pi
+def area():
+    s=a**2
+    return (s)
+def volumeofcube():
+    t=d**3
+    return (t)
+def TSA():
+    b=2*((y*z)+(h*z)+(y*h))
+    return (b)
+def volumeofcone():
+    w=(1/3)*pi*r*height
+    return (w)
+print("Write a program implementing user defined functions of four different types with menu as \n1. Area of square\n2. Volume of a cube\n3. Total surface area of cuboid\n4. Volume of a cone\n5. Exit")
+x=True
+while x==True:
+    ch=int(input())
+    if ch==1:
+        a=int(input())
+        print(area())
+        s=True
+    elif ch==2:
+        d=int(input())
+        print(volumeofcube())
+        s=True
+    elif ch==3:
+        y=int(input())
+        z=int(input())
+        h=int(input())
+        print(TSA())
+        s=True
+    elif ch==4:
+        r=int(input())
+        height=int(input())
+        print(volumeofcone())
+        s=True
+    else:
+        s=False
+        break
