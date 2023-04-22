@@ -21,22 +21,21 @@ while x==True:
     if ch==1:
         a=int(input())
         area(a)
-        s=True
+        x=True
     elif ch==2:
         d=int(input())
         volumeofcube(d)
-        s=True
+        x=True
     elif ch==3:
         y=int(input())
         z=int(input())
         h=int(input())
         TSA(y,z,h)
-        s=True
+        x=True
     elif ch==4:
         r=int(input())
         height=int(input())
         volumeofcone(r,height)
-        s=True
+        x=True
     else:
-        s=False
-        break
+        x=False
